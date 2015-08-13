@@ -8,7 +8,7 @@ got.rating  <- scan(file="got.rating.dat")
 
 got           <- cbind(got.season, got.episode, got.rating)
 got           <- data.frame(got)
-colnames(got) <- c("Temporada", "Episode", "Rating")
+colnames(got) <- c("Temporada", "Episódio", "Rating")
 
 ordem <- sort(got.season*100 + got.episode, index.return=TRUE)$ix
 
