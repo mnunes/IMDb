@@ -1,3 +1,5 @@
+library(ggplot2)
+
 # read the data and combine the columns
 
 got.season  <- scan(file="got.season.dat")
