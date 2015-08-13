@@ -1,4 +1,4 @@
-wget ftp://ftp.fu-berlin.de/pub/misc/movies/database/ratings.list.gz && tar -xvf ratings.list.gz
+wget ftp://ftp.fu-berlin.de/pub/misc/movies/database/ratings.list.gz && gzip -d ratings.list.gz
 
 ######### Game of Thrones
 
