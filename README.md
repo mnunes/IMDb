@@ -14,3 +14,4 @@ If you are on Linux or OS X, you only need to run
 
 That's all!
 
+![alt tag](https://raw.githubusercontent.com/mnunes/IMDb/got.png)
