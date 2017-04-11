@@ -1,3 +1,5 @@
+setwd("~/Documents/Lectures/UFRN/EST0113 - Introdução à Estatística e Probabilidade/Material/Unidade II/04 - Análises Gerais/")
+
 library(ggplot2)
 library(dplyr)
 
@@ -26,7 +28,7 @@ head(got)
 
 ggplot(got, aes(x=episodio, y=rating, color=temporada)) + 
   labs(title="Game of Thrones: Ratings por Temporada", x="Episódio", y="Rating", colour="Temporada") + 
-  geom_smooth(method=lm, se=FALSE) + 
+  geom_smooth(method=loess, se=FALSE) + 
   geom_point(shape=1) +
   theme(plot.title = element_text(hjust = 0.5))
 
@@ -65,7 +67,7 @@ head(twd)
 
 ggplot(twd, aes(x=episodio, y=rating, color=temporada)) + 
   labs(title="The Walking Dead: Ratings por Temporada", x="Episódio", y="Rating", colour="Temporada") + 
-  geom_smooth(method=lm, se=FALSE) + 
+  geom_smooth(method=loess, se=FALSE) + 
   geom_point(shape=1) +
   theme(plot.title = element_text(hjust = 0.5))
 
