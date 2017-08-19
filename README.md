@@ -14,4 +14,4 @@ If you are on Linux or OS X, you only need to run
 
 That's all!
 
-![alt tag](https://raw.githubusercontent.com/mnunes/IMDb/master/got.png)
+![Game of Thrones - Ratings](https://raw.githubusercontent.com/mnunes/IMDb/master/got.png)
